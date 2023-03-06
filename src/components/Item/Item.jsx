@@ -10,7 +10,7 @@ export const Item = ({item}) => {
                 <p className="producto-title">{item.nombre}</p>
                 <p className="producto-subtitulo">{item.unidades} unidad(es) de {item.volumen}ml.</p>
                 <p className="producto-precio">${new Intl.NumberFormat('de-DE').format(item.precio)}</p>
-                <button type="button" className={`botonAgregar btn ${darkMode ? 'btn-primary' : 'btn-secondary'}`}><Link className="nav-link" to={`/item/${item.id}`}>Ver producto</Link></button>
+                <button type="button" className={`botonAgregar btn ${darkMode ? 'btn-secondary' : 'btn-primary'}`}><Link className="nav-link" to={`/item/${item.id}`}>Ver producto</Link></button>
             </div>
       </div>
     );

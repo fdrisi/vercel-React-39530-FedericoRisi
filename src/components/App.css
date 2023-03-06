@@ -44,8 +44,13 @@
     text-align: center;
   }
 
+  .cardBody{
+    margin-bottom: 3px;
+    text-align: center;
+  }
+
   .itemDetailBodyDark{
-    background-color: #0c142e;
+    background-color: #05248d;
     color:beige;
   }
 
@@ -58,4 +63,13 @@
   }
   .cardCart{
     max-width: 540px;
+  }
+
+  .botonAgregar{
+    margin-top:5px;
+    margin-bottom:5px;
+  }
+
+  .cardbodydark{
+    background-color: bluewhite;
   }
